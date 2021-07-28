@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+body {
+    background-color: #80808040;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: #575F7D;
+    line-height: 20px;
+
+}
+
+.container {
+    width: auto;
+    
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0px 5px 11px rgb(0 0 0 / 5%);
+    padding: 20px 50px;
+    text-align: center;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#profil-pic {
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px auto 10px auto;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: normal;
+}
+
+h2 {
+    margin: 0px;
+    line-height: 25px;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#btn-discover:hover {
+    color: #000000;
+}
+
+#btn-discover {
+    color: white;
+    font-family: 'Roboto';
+    padding: 10px 20px;
+    background-color: #6B72E1;
+    border-radius: 5px;
+    margin: 7px auto;
+}
+
+.btn-icon {
+    list-style: none;
+    display: inline-block;
+    color: #e0e0e0;
+    margin: auto 26px;
+    font-size: 35px;
+}
+
+.btn-icon:hover {
+    color: #8a8888;
+}
+
+#follow-me {
+    color: #7ECE90
+}
+
+.giphy-embed {
+    
+    /* height: inherit;
+    width: max-content;     */
+}
+
+@media (max-width: 960px) {
+/* For a screen < 960px, this CSS will be read */
+.container {
+    width: 700px;
+    }
+}
+@media (max-width: 720px) {
+/* For a screen < 720px, this CSS will be read */
+.container {
+    width: 500px;
+}
+}
+@media (max-width: 540px) {
+/* For a screen < 540px, this CSS will be read */
+.container {
+    width: 300px;
+    }
+}
